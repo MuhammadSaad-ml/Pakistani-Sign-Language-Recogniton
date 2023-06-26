@@ -4,10 +4,11 @@
 
 
 
-# Pakistani Sign Langauge Detection Using Tensor Flow Object Detection API(With Trained Checkpoints)
-<p>This set of repository provide a complete guide how to run or train object detection model following repository have  four files which includes trained checkpoints (Means person dont have to train the model can run and detect signs using PSL)
+# Pakistani Sign Language Detection Using Tensor Flow Object Detection API(With Trained Checkpoints)
+<p>This set of repository provide a complete guide how to run or train object detection model following repository have  five files which includes trained checkpoints (Means person dont have to train the model can run and detect signs using PSL)
 
 <img src =https://i.imgur.com/SaU66RC.png>
+<img src=https://i.imgur.com/JmFdDU5.png>
 
 
 <pre>
@@ -31,16 +32,20 @@ conda activate object detection
 </pre>
 <br/>
 
-<b>Step 3.</b> Collect images using the file file no 3 take images using camera
+<b>Step 3.</b> Collect images using[images using camera](https://github.com/MuhammadSaad-ml/Pakistani-Sign-Language/blob/main/Images%20using%20camera.ipynb)
 
 <br/>
 <b>Step 4.</b> Manually divide collected images into two folders train and test. So now all folders and annotations should be split between the following two folders. <br/>
 \PSLD\Tensorflow\workspace\images\train<br />
 \PSLD\Tensorflow\workspace\images\test
 <br/><br/>
-<b>Step 5.</b>Install TF object detection API using install object detection file no 5
+<b>Step 5.</b>Install TF object detection by clicking 
+<a href="https://github.com/MuhammadSaad-ml/Pakistani-Sign-Language/blob/main/Install%20Object%20Detection.ipynb" >Install Object Detection.ipynb</a>
+<br>
+
+<br/>
 <img src=https://i.imgur.com/fADvaOv.png>
 After sucessfully installing by running verfication script will display the following 
 <br><br/>
 
-<b>Step 5.</b> Begin training process by opening. Training the model.ipynb</a>, this notebook will walk you through training the model
+<b>Step 6.</b> Begin training process by clicking<a href="https://github.com/MuhammadSaad-ml/Pakistani-Sign-Language/blob/main/Training%20the%20%20model.ipynb">Training the model.ipynb</a> 
