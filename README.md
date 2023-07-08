@@ -16,12 +16,12 @@
 2.Image detection.py(used to detect object in images )
 3.Images using camera.ipynb(Capturing images using OpenCV)
 4.Training the model.ipynb(used for training the model)
-5.Install Object Detection.ipynb(Used for installing tf object detection API)
+5.Install Object Detection.ipynb(Used for installing tf object detection API).
 </pre>
 
 ## Steps
 
-<b>Step 1.</b> Create a new virtual environment using Anaconda  
+<b>Step 1. </b>  Create a new virtual environment using Anaconda  
 <pre>
 conda create --name object detection python=3.8
 </pre> 
