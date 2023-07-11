@@ -12,7 +12,7 @@
 
 
 <pre>
-1.Object detection.py(used to detect object in real time)
+1.Object detection.py(used to detect object in real time).
 2.Image detection.py(used to detect object in images )
 3.Images using camera.ipynb(Capturing images using OpenCV)
 4.Training the model.ipynb(used for training the model)
