@@ -24,7 +24,7 @@ CHECKPOINT_PATH = MODEL_PATH+'/my_ssd_mobnet/'
 configs = config_util.get_configs_from_pipeline_file(CONFIG_PATH)
 detection_model = model_builder.build(model_config=configs['model'], is_training=False)
 
-#Checkpoints A
+#Checkpoints Ad
 ckpt = tf.compat.v2.train.Checkpoint(model=detection_model)
 ckpt.restore(os.path.join(CHECKPOINT_PATH, 'ckpt-21')).expect_partial()
 #tf function
